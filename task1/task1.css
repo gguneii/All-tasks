@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+  border-top: 2px solid #ccc;
+  margin-top: 10px;
+  box-shadow: 1px 1px 5px #ccc;
+}
+nav{
+padding: 15px;
+
+}
+
+header a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+main{
+    height: 460px;
+}
+
+main .fortnite{
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    overflow: hidden;}
+main img{
+    width: 100%;
+    vertical-align: bottom;
+}
+main .text h4{
+   padding: 30px 0px 8px 10px;
+}
+main .text p{
+   padding: 0px 0px 5px 10px;
+}
+main .text button{
+    margin-left: 10px;
+    margin-top: 9px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color:blueviolet;
+}
+footer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-top: 2px solid #ccc;
+
+}
+footer p{
+    margin-left: 20px;
+}

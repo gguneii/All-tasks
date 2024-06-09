@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fbf6fc;
+}
+
+.card1{
+ display: inline-block;
+    width: 300px;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #ccc;
+    margin-top: 100px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.card{
+    margin-left: 250px;
+   
+}
+.card1 .img img{
+    width: 100%;
+    vertical-align: bottom;
+    height: 200px;
+}
+
+
+.about .parag1{
+ width: 100px;
+ padding: 5px;
+ background-color: #96d5e1;
+ color: white;
+ border-radius: 20px;
+ font-size: 10px;
+ text-align: center;
+ margin: 20px 0 0 20px;
+}
+.about .second{
+    background-color: #382294;
+}
+.about .third{
+    background-color: #40a048;
+}
+.about h3{
+    margin: 10px 0 0 20px;
+    font-size: 19px; 
+}
+.about .parag2{
+    color: #646361;
+    padding: 10px 0 0 10px;
+
+}
+.card1 .end img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 25px 0 0 15px;
+
+}
+.end{
+    display: flex;
+}
+.abt{
+    margin: 25px 0 0 10px;
+}
+.abt .parag3{
+    color: gray;
+}
+.end2{
+    margin-top: 40px;
+}
